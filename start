@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export JAVA_OPTS="-Xms1024M -Xmx1024M -Xss1M -XX:+UseParallelGC"
+./sbt stage && ./target/universal/stage/bin/akka-name-node
