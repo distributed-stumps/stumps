@@ -1,4 +1,4 @@
-package com.github.scalable_tech.stumps.provider
+package com.github.distributed_stumps.stumps.provider
 
 import akka.actor._
 

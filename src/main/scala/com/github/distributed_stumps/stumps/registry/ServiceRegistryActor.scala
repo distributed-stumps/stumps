@@ -1,9 +1,9 @@
-package com.github.scalable_tech.stumps.registry
+package com.github.distributed_stumps.stumps.registry
 
 import akka.actor.{ActorRef, Actor}
 
-import com.github.scalable_tech.stumps.message.common._
-import com.github.scalable_tech.stumps.message.provider._
+import com.github.distributed_stumps.stumps.message.common._
+import com.github.distributed_stumps.stumps.message.provider._
 
 /** A simple actor that acts as a central registry for registered services
   *

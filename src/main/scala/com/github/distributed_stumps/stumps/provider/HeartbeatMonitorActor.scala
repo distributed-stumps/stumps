@@ -1,9 +1,9 @@
-package com.github.scalable_tech.stumps.provider
+package com.github.distributed_stumps.stumps.provider
 
 import akka.actor._
 
-import com.github.scalable_tech.stumps.message.provider.{Unregister, Register}
-import com.github.scalable_tech.stumps.registry.ServiceRegistryActor
+import com.github.distributed_stumps.stumps.message.provider.{Unregister, Register}
+import com.github.distributed_stumps.stumps.registry.ServiceRegistryActor
 
 import scala.concurrent.duration._
 

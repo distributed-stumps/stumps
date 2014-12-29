@@ -1,11 +1,11 @@
-package com.github.scalable_tech.stumps.boot
+package com.github.distributed_stumps.stumps.boot
 
 import akka.actor._
 import akka.kernel._
 
-import com.github.scalable_tech.stumps.provider.ProviderSupervisorActor
-import com.github.scalable_tech.stumps.registry.ServiceRegistryActor
-import com.github.scalable_tech.stumps.subscriber.SubscriberSupervisorActor
+import com.github.distributed_stumps.stumps.provider.ProviderSupervisorActor
+import com.github.distributed_stumps.stumps.registry.ServiceRegistryActor
+import com.github.distributed_stumps.stumps.subscriber.SubscriberSupervisorActor
 
 
 class Kernel extends Bootable {

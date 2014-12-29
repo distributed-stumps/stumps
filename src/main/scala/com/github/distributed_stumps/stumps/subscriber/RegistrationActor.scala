@@ -1,10 +1,10 @@
-package com.github.scalable_tech.stumps.subscriber
+package com.github.distributed_stumps.stumps.subscriber
 
 import akka.actor._
 
-import com.github.scalable_tech.stumps.message.common._
-import com.github.scalable_tech.stumps.message.subscriber._
-import com.github.scalable_tech.stumps.registry.ServiceRegistryActor
+import com.github.distributed_stumps.stumps.message.common._
+import com.github.distributed_stumps.stumps.message.subscriber._
+import com.github.distributed_stumps.stumps.registry.ServiceRegistryActor
 
 import scala.concurrent.duration._
 

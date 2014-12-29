@@ -1,8 +1,8 @@
-package com.github.scalable_tech.stumps.provider
+package com.github.distributed_stumps.stumps.provider
 
 import akka.actor.{ActorRef, Actor}
 
-import com.github.scalable_tech.stumps.message.provider.{Registered, Register}
+import com.github.distributed_stumps.stumps.message.provider.{Registered, Register}
 
 /** Simple actor to register resources with. Once registered, a watch is setup with
   ( the heartbeat monitor actor.

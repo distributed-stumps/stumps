@@ -1,4 +1,4 @@
-package com.github.scalable_tech.stumps.subscriber
+package com.github.distributed_stumps.stumps.subscriber
 
 import akka.actor.{Props, Actor, SupervisorStrategy, OneForOneStrategy}
 
